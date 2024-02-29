@@ -2,9 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+}
+body{
   font-family:cursive;
 }
-
 html{
   scroll-behavior: smooth;
 }
@@ -144,5 +146,12 @@ html{
   50% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+
+@media screen and (width<=640px) {
+  body{
+     font-family: sans-serif;
   }
 }
